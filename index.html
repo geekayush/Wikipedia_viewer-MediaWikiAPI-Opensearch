@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" href="http://icons.iconarchive.com/icons/sykonist/popular-sites/256/Wikipedia-icon.png" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,700" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="CSS/style.css" />
+    <title>Wikipedia Viewer</title>
+</head>
+
+<body class="container-fluid">
+    <div class="fixed">
+        <header>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Wikipedia-logo_%28inverse%29.png/841px-Wikipedia-logo_%28inverse%29.png" />
+            <h1>Wikipedia Viewer</h1>
+        </header>
+        <div class="row">
+            <form class="col-xs-6 col-xs-offset-3">
+                <input id="search_bar" type="text" class="searchbar" placeholder="Search here...">
+            </form>
+        </div>
+        <div class="row">
+            <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><button type="submit" class="btn col-xs-2 col-xs-offset-5">I'm feeling lucky</button>
+            </a></div>
+    </div>
+    <div class="row">
+        <div id="links" class="col-xs-8 col-xs-offset-2"></div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.3/jquery-ui.min.js" integrity="sha256-xI/qyl9vpwWFOXz7+x/9WkG5j/SVnSw21viy8fWwbeE=" crossorigin="anonymous"></script>
+    <script src="JS/script.js"></script>
+</body>
+
+</html>
