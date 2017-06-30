@@ -27,7 +27,7 @@ function link_generator(data) {
     link = data[3];
 
     for (i; i < data[3].length; i++) {
-        var link_list = '<a href="' + link[i] + '">' + title[i] + '</a>';
+        var link_list = '<a target="_blank" href="' + link[i] + '">' + title[i] + '</a>';
         var description_list = '<li>' + link_list + '<br><p>' + description[i] + '</p><hr></li>';
 
         $('#links').append(description_list);
